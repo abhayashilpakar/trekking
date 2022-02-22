@@ -1,0 +1,792 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+/*********************************header content start********************************************/
+
+header{
+    width: 100%;
+
+    height: 600px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+ .mainImage {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: -1;
+    display: block;
+}
+.mainImage img{
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+    filter: brightness(50%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+        
+}
+
+nav{
+    height: 94px;
+    width: 100%;
+    position:absolute;
+    top: 20px;
+  
+    
+   
+    /* background-color: coral; */
+}
+
+.navContainer{
+    width: 1260px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    /* box-shadow: 8px 8px  gainsboro; */
+    display: flex;
+    border: 8px solid gainsboro;
+    border-radius: 50px;
+    
+}
+
+.navImage{
+    padding-right: 44.5px;
+    
+}
+
+.navImage img{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.mainNav{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: block;
+}
+
+.mainNav ul{
+    list-style: none;
+}
+.mainNav ul li{
+    float: left;
+}
+
+.mainNav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    /* display: block; */
+    text-align: center;
+    color: black;
+    font-size: 18px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding: 31px 14px;
+    /* line-height: 18px;  */
+}
+
+.word{
+    width: 1210px;
+    height: 250px;
+    /* background-color: bisque; */
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    right: 80px;
+    
+    
+}
+.wordPara{
+    text-align: center;
+    width: 500px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.wordPara h1{
+    font-size: 74px;
+    text-transform: uppercase;
+    line-height: 64px;
+    font-weight:400 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: antiquewhite; */
+}
+
+.wordSemiPara{
+    text-align: center;
+    padding-bottom: 20px;
+    /* text-transform: uppercase; */
+    
+}
+.wordSemiPara h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.wordSemiPara button{
+    font-size: 24px;
+    /* text-decoration: none; */
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px;
+    text-transform: uppercase;
+     
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-align: center; */
+    /* background: coral ; */
+}
+
+/*************************** header content end************************/
+
+/****************contanier  starts ************************************/
+
+.container{
+    height: 1580px;
+    width: 100%;
+    /* background-color: lightyellow; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.contain{
+    height: 100%;
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: lightgreen; */
+    
+}
+.paraWork{
+    width: 100%;
+    height: 380px;
+    padding-top: 100px;
+    /* background-color: lightgoldenrodyellow; */
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    position: relative;
+    
+ 
+    
+}
+.paraWork p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.paraWork h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 400;
+    
+    padding-bottom: 22px;
+    margin-bottom: 24px;
+
+}
+.underline{
+    border-bottom: 3px solid lightgreen;
+    width: 200px;
+    position: absolute;
+    bottom: 47.5%;
+  
+}
+.paraWork h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    width: 650px;
+    /* background-color: aqua; */
+    
+    
+}
+.semicontain{
+    height: auto;
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* background-color:  lightseagreen; */
+    /* margin-left: 10px; */
+    margin-bottom: 30px;
+}
+.conBox1{
+    width: 400px;
+    height: 590px;
+    margin-left: 20px;
+    /* background-color: lightpink; */
+    position: relative;
+    border-radius: 25px;
+    /* box-shadow: 10px 10px 5px  lightblue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.conBox2{
+    width: 100%;
+    height: 235px;
+}
+.conBox1 img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+}
+
+.price{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255 209 66);
+    position: absolute;
+    top: 37.5%;
+    right: 28.5%;
+    border-radius: 11px;
+  
+    
+    
+}
+.price h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 3px;   
+    text-align: center;
+
+}
+
+.days{
+    width: 84px;
+    height: 30px;
+    background-color: rgb(213 206 187);
+    position: absolute;
+    top: 37.5%;
+    right: 4.88%;
+    border-radius: 11px;
+}
+.days h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 3px;   
+    text-align: center;
+
+}
+
+.conBox3{
+    width: 340px;
+    height: 253px;
+    /* background-color: lightgreen; */
+   margin-top: 20px;
+   margin-bottom: 20px;
+    /* margin-left: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.conBox3 h2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 15px;
+    
+}
+.conBox3 p{
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conBox1 .trips a{
+    position: absolute;
+    /* width: 100%; */
+    text-decoration:none ;
+    height: 42px;
+    text-align: center;
+    display: block;
+    /* margin-top: 9px; */
+    left: 22%;
+    /* background-color: blue; */
+  
+}
+.trips a{
+    border: 1px solid lightslategrey;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 8px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.trips a:hover{
+    /* background-color: aquamarine; */
+    color:white;
+}
+
+.semicontain2{
+    height: auto;
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* background-color:  lightseagreen; */
+    /* margin-left: 10px; */
+    margin-bottom: 30px;
+}
+
+.blog{
+    width: 100%;
+    height: 630px;
+    /* background-color: lightcyan;  */
+    margin-bottom: 40px;
+}
+
+.blogContain{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: lightpink; */
+    /* display: flex; */
+}
+
+.blogPara{
+    width: 100%;
+    height: 118px;
+    position: relative;
+    /* padding-bottom: 20px; */
+}
+.blogPara h2{
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.blogPara h3{
+    text-align: center;
+    font-weight: 400;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* text-align: justify; */
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    right: 240px;
+
+}
+.blogContain1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.blogBox{
+    width: 300px;
+    height: 380px;
+    /* background-color: lightgreen; */
+    margin-bottom: 20px;
+    margin-left: 44px;
+    border-radius: 25px;
+}
+.blogBox img{
+    width:100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+/******************************conatainer ends here*********************************/
+
+
+
+
+/*******************************footer starts here**********************************/
+
+footer{
+    width: 100%;
+    height: 1000px;
+    /* background-color: lightblue;     */
+    border-top-left-radius:45px;
+    border-top-right-radius:45px;
+    /* padding-bottom: 80px; */
+    padding-top: 80px;
+    background-color: rgb(0 0 0);
+    color: white;
+}
+
+ .mainFooter{
+    width: 90%;
+    height: 100%;
+    /* background-color : white; */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    height: 250px;
+    width: 100%;
+    /* background-color: lavender; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid lightgray;
+   
+}
+.box1 h2{
+    /* padding-top: 15px; */
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+.box1 p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.email{
+    height: 100px;
+    width: 570px;
+    /* background-color: aquamarine; */
+    position: relative;
+    position: absolute;
+    right: 29%;
+}
+.email input{
+    width:90% ;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    /* border: none; */
+    border-color: lightblue;
+    background: #f1f1f1;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    
+    
+}
+.email button{
+    float: left;
+    position: absolute;
+    width: 20%;
+    right: 0;
+    padding-top: 13px;
+    padding-bottom:13px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: aquamarine;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 5%;
+    /* border-left: none; */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.mail{
+    text-align: center;
+}
+
+.box2{
+    width: 100%;
+    height: 296px;
+    /* background-color: lightgreen; */
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+
+}
+.semiBox2{
+    width: 385px;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    padding: 20px  50px;
+    margin-right: 10px ;
+    border-right:1px solid lightgray;
+    
+}
+.semiBox2-1 {
+    /* background-color: lightblue; */
+    padding-right: 10px; 
+
+}
+
+.semiBox2-1 ul{
+    list-style: none;
+
+}
+.semiBox2-1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+}
+.semiBox2-1 a:hover{
+    text-decoration: underline;
+}
+
+.semiBox2-2 ul{
+    list-style: none;
+
+}
+.semiBox2-2 a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: lightgray;
+    line-height: 30px;
+
+}
+.semiBox3{
+    width: 323px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    margin-right: 10px;
+    padding: 20px  45px;
+    display: block;
+    border-right:1px solid lightgray;
+    
+}
+.semiBox3-1 h2{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+
+.semiBox3-1 p{
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.semiBox3-1 .reading {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.semiBox3-1 .reading a{
+    color: lightgray;
+}
+.semiBox4{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 100%;
+    margin-right: 10px;
+    padding: 20px  45px;
+    border-right:1px solid lightgray;
+    /* background-color: aquamarine; */
+}
+
+.semiBox4 h2{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.semiBox4 a{
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:lightgray ;
+}
+.semiBox4   i{
+    padding-right: 10px;
+    color:lightgray ;
+    /* font-size: 10px; */
+}
+
+.semiBox5{
+    width: 298px;
+    height: 100%;
+    padding: 20px  45px;
+    /* background-color: orchid; */
+    margin-right: 10px;
+}
+
+.semiBox5 h2{ 
+    font-size: 14.5px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:white;
+ 
+}
+.semiBox5 ul li{
+    list-style: none;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* color: lightgrey; */
+    color: lightgray;
+}
+.semiBox5 a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* color: lightgrey; */
+    font-size: 13px;
+    color:lightgray ;
+}
+.box3{
+    height: 143px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    border-bottom:1px solid lightslategray;
+    display: flex;
+    padding-right: 25%;
+    padding-left: 4%;
+    
+}
+.botBox3{
+    width: auto;
+    height: 100%;
+    /* background-color: lightcoral; */
+    margin-right: 30px;
+    padding-top: 25px;
+   
+    
+}
+.botBox3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom:  5px;
+    color:  lightgray;
+ 
+}
+.botBox3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: gray;
+}
+.botBox3 a{
+    text-decoration: none;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.box4{
+    width: 100%;
+    height: 158px;
+    /* background-color: lightseagreen; */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 15px;   
+    padding-bottom: 15px;
+    display: flex;
+    position: relative;
+    padding-left: 4%;
+    
+}
+
+.Affiliations{
+    height: 100%;
+    width: auto ;
+    padding-right: 25px;
+}
+.Affiliations h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Affiliations img{
+    height: 64px;
+    width: 64px;
+    padding-right: 4px;
+}
+.logo{
+    border-radius: 11.5px;
+}
+
+.Businesses{
+    height: 100%;
+    width: auto ;
+    padding-left: 20px;
+}
+
+.Businesses h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Businesses img{
+    height: 64px;
+    width: 88px;
+    padding-right: 4px;
+}
+.numbers{
+    width: auto;
+    height: 100%;
+    /* background-color: lightpink; */
+    position: absolute;
+    right: 0;
+    top: 0%;
+    padding-top: 15px;
+}
+.numbers h3{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    line-height: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+.numbers h2{
+    font-size: 17.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-weight: 400;
+    word-spacing: 2px;
+    color: white;
+}
+.numbers h2:hover {
+    text-decoration: underline;
+}
