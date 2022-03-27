@@ -99,8 +99,8 @@ nav{
     height: 250px;
     /* background-color: bisque; */
     position: absolute;
-    z-index: -1;
-    top: 40%;
+    z-index: 3;
+    top: 32%;
     right: 80px;
     
     
@@ -108,7 +108,7 @@ nav{
 .wordPara{
     text-align: center;
     width: 500px;
-    
+    /* background-color: aqua; */
     margin-right: auto;
     margin-left: auto;
     
@@ -127,6 +127,8 @@ nav{
     text-align: center;
     padding-bottom: 20px;
     /* text-transform: uppercase; */
+    /* position: absolute; */
+    
     
 }
 .wordSemiPara h3{
@@ -139,17 +141,22 @@ nav{
 }
 
 .wordSemiPara button{
-    font-size: 24px;
-    /* text-decoration: none; */
-    color: white;
-    border: 2px solid blue;
-    border-radius: 10px;
-    padding: 5px 35px 5px 35px;
+    font-size: 20px;
+    border: 2px solid lightgray;
+    /* position: absolute; */
+    border-radius: 13.5px;
+    padding: 7px 35px 7px 35px;
     text-transform: uppercase;
-     
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* text-align: center; */
-    /* background: coral ; */
+    color: white;
+    cursor: pointer;
+     z-index: 1000;
+     background: rgba(255, 250, 250, 0);
+}
+.wordSemiPara button:hover{
+    background-color: rgba(0,193,202,192);
+    transition: 0.3s;
+    border: 2px solid black;
+    
 }
 
 /*************************** header content end************************/
@@ -435,6 +442,7 @@ footer{
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -514,6 +522,7 @@ footer{
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
+    /* flex-wrap: wrap; */
     border-top: 1px solid lightgray;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -525,6 +534,7 @@ footer{
     height: 100%;
     /* background-color: lightcoral; */
     display: flex;
+    
     padding: 20px  50px;
     margin-right: 10px ;
     border-right:1px solid lightgray;
